@@ -1,0 +1,11 @@
+source,employee_id,first_name,last_name,gender,date_of_birth,hire_date,salary,department,age
+dataset_1,101,John,Doe,M,1990-01-15,2015-06-01,50000,IT,34
+dataset_1,102,Jane,Smith,F,1992-03-22,2016-08-15,65000,HR,32
+dataset_1,103,Bob,Johnson,M,1988-06-10,2014-03-20,55000,IT,36
+dataset_1,104,Alice,Williams,F,1995-12-05,2017-01-10,72000,Finance,29
+dataset_1,105,Charlie,Brown,M,1987-04-18,2018-07-05,48000,Sales,37
+dataset_2,201,Diana,Jones,F,1993-07-30,2015-11-18,68000,HR,31
+dataset_2,202,Eve,Garcia,F,1991-09-12,2019-02-14,52000,IT,33
+dataset_2,203,Frank,Miller,M,1989-02-28,2016-09-30,61000,Finance,35
+dataset_2,204,Grace,Davis,F,1994-11-08,2017-05-22,58000,Sales,30
+dataset_2,205,Henry,Rodriguez,M,1986-05-25,2015-12-01,70000,IT,38

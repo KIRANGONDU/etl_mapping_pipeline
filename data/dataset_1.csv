@@ -1,0 +1,6 @@
+emp_id,fname,lname,sex,birth_date,joining_date,annual_salary,dept,yrs_old,active_status
+101,John,Doe,M,1990-01-15,2015-06-01,50000,IT,34,Yes
+102,Jane,Smith,F,1992-03-22,2016-08-15,65000,HR,32,Yes
+103,Bob,Johnson,male,1988-06-10,2014-03-20,55000,IT,36,No
+104,Alice,Williams,female,1995-12-05,2017-01-10,72000,Finance,29,Yes
+105,Charlie,Brown,M,1987-04-18,2018-07-05,48000,Sales,37,Yes

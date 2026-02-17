@@ -1,0 +1,33 @@
+{
+  "total_errors": 0,
+  "total_warnings": 0,
+  "total_corrections": 4,
+  "errors": [],
+  "warnings": [],
+  "corrections": [
+    {
+      "timestamp": "2026-02-18T02:52:57.454570",
+      "stage": "data_type_fix",
+      "action": "Rectified data types for 3 columns",
+      "affected_rows": 5
+    },
+    {
+      "timestamp": "2026-02-18T02:52:57.465765",
+      "stage": "data_type_fix",
+      "action": "Rectified data types for 3 columns",
+      "affected_rows": 5
+    },
+    {
+      "timestamp": "2026-02-18T02:52:57.474360",
+      "stage": "data_type_fix",
+      "action": "Rectified data types for 3 columns",
+      "affected_rows": 10
+    },
+    {
+      "timestamp": "2026-02-18T02:52:57.486217",
+      "stage": "data_type_fix",
+      "action": "Rectified data types for 3 columns",
+      "affected_rows": 15
+    }
+  ]
+}

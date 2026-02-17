@@ -1,0 +1,11 @@
+employee_id,first_name,last_name,gender,date_of_birth,annual_salary
+1,John,Doe,M,1990-01-15,50000
+2,Jane,Smith,F,1992-03-22,65000
+3,Bob,Johnson,M,1988-06-10,55000
+4,Alice,Williams,F,1995-12-05,72000
+5,Charlie,Brown,M,1987-04-18,48000
+6,Diana,Jones,F,1993-07-30,68000
+7,Eve,Garcia,Unknown,1991-09-12,52000
+8,Frank,Miller,M,1989-02-28,61000
+9,Grace,Davis,F,1994-11-08,58000
+10,Henry,Rodriguez,Unknown,1986-05-25,70000

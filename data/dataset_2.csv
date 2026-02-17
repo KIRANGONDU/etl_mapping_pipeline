@@ -1,0 +1,6 @@
+employee_id,first_name,last_name,gender,date_of_birth,hire_date,salary,department,age,status
+201,Diana,Jones,F,1993-07-30,2015-11-18,68000,HR,31,active
+202,Eve,Garcia,female,1991-09-12,2019-02-14,52000,IT,33,inactive
+203,Frank,Miller,M,1989-02-28,2016-09-30,61000,Finance,35,active
+204,Grace,Davis,female,1994-11-08,2017-05-22,58000,Sales,30,active
+205,Henry,Rodriguez,M,1986-05-25,2015-12-01,70000,IT,38,active

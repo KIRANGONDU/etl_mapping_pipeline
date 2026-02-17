@@ -1,0 +1,16 @@
+emp_id,first_name,last_name,gender,dob,hire_date,salary,department,age,status
+1,John,Doe,M,1990-01-15,2015-06-01,50000,IT,34,active
+2,Jane,Smith,F,1992-03-22,2016-08-15,65000,HR,32,active
+3,Bob,Johnson,male,1988-06-10,2014-03-20,55000,IT,36,inactive
+4,Alice,Williams,female,1995-12-05,2017-01-10,72000,Finance,29,active
+5,Charlie,Brown,MM,1987-04-18,2018-07-05,48000,Sales,37,active
+6,Diana,Jones,ff,1993-07-30,2015-11-18,68000,HR,31,active
+7,Eve,Garcia,0,1991-09-12,2019-02-14,52000,IT,33,inactive
+8,Frank,Miller,M,1989-02-28,2016-09-30,61000,Finance,35,active
+9,Grace,Davis,F,1994-11-08,2017-05-22,58000,Sales,30,active
+10,Henry,Rodriguez,male,1986-05-25,2015-12-01,70000,IT,38,active
+11,Iris,Martinez,,1994-02-14,2018-01-15,54000,HR,32,active
+12,Jack,Hernandez,F,1991-08-20,2016-04-10,62000,Finance,34,inactive
+13,Karen,Lopez,female,1989-11-30,2017-09-05,59000,Sales,34,active
+14,Leo,Gonzalez,M,1993-05-10,2018-03-18,51000,IT,31,active
+15,Mia,Wilson,f,1996-07-22,2019-06-01,56000,HR,27,active

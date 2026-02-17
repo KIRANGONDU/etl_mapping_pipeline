@@ -1,0 +1,72 @@
+# ETL Pipeline Configuration
+
+pipeline:
+  name: "Data Ingestion and Transformation Pipeline"
+  version: "1.0"
+
+# Input configuration
+input:
+  directory: "data"
+  file_type: "csv"  # csv, xlsx, xls
+  encoding: "utf-8"
+
+# Transformation configuration
+transformations:
+  # Date columns to format to YYYY-MM-DD
+  date_columns:
+    - dob
+    - hire_date
+    - join_date
+  
+  # Gender normalization (m, mm, male -> M; f, ff, female -> F; 0 -> Unknown)
+  gender_column: "gender"
+  
+  # Remove duplicate rows
+  remove_duplicates: true
+  
+  # Fill missing values
+  fill_missing_values:
+    gender: "Unknown"
+    department: "Unassigned"
+    status: "unknown"
+  
+  # Column mapping: input_column -> output_column
+  # This also serves as a column selector (only these columns will be in output)
+  column_mapping:
+    emp_id: employee_id
+    first_name: first_name
+    last_name: last_name
+    gender: gender
+    dob: date_of_birth
+    salary: annual_salary
+    # Reduced from 10 to 6 columns
+
+# Filtering rules (optional)
+filtering:
+  enabled: false
+  rules:
+    # age: [18, 65]  # Keep ages between 18-65
+    # status: "active"  # Keep only active records
+    # department: "IT"
+
+# Aggregation rules (optional)
+aggregation:
+  enabled: false
+  group_by: "department"
+  metrics:
+    salary: "mean"
+    age: "avg"
+    emp_id: "count"
+
+# Output configuration
+output:
+  directory: "output"
+  file_name: "transformed_output.csv"
+  format: "csv"  # csv, xlsx, json
+  index: false
+  encoding: "utf-8"
+
+# Logging
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(levelname)s - %(message)s"
